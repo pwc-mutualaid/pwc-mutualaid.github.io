@@ -97,17 +97,19 @@ nav ul li:last-child{
 }
 
 /* Our Mission */
+#mission {
+    width: 870px;
+}
 #mission p {
-    width: 714px;
     text-align: justify;
-    margin-left: 50px;
     margin-bottom: 0px;
 }
 
 #mission img {
-    width: 100px;
-    height: 100px;
-    margin-top: 18px;
+    width: 83px;
+    height: 83px;
+    margin: 7px 35px 0px 0px;
+    float: left;
 }
 
 #mission2 {
