@@ -85,7 +85,7 @@ nav ul li:last-child{
 
 /* Who Are We? */
 
-#aboutUs p {
+#aboutUs p, #social-media p {
     width: 714px;
     text-align: justify;
 }
@@ -99,6 +99,8 @@ nav ul li:last-child{
 /* Our Mission */
 #mission {
     width: 870px;
+    margin-bottom: 50px;
+    margin-top: 35px;
 }
 #mission p {
     text-align: justify;
@@ -112,7 +114,76 @@ nav ul li:last-child{
     float: left;
 }
 
-#mission2 {
-    text-align: left;
-    width: 870px;
+/* support */
+
+#request-support, #browse-resources, #volunteer {
+    background: rgba(85, 223, 36, 0.55);
+    border-radius: 18px;
+    height: 154px;
+    margin-top: 18px;
+}
+
+#request-support {
+    width: 452px;
+    margin-right: 25px;
+}
+
+#request-support-body {
+    width: 400px;
+}
+#request-support div {
+    margin-top: 13px;
+}
+#request-support h2 {
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+#request-support img {
+    width: 45px;
+    height: 45px;
+}
+#request-support p {
+    margin-top: 4px;
+}
+
+#browse-resources{
+    width: 413px;
+    margin-left: 25px;
+}
+
+#browse-resources h2{
+    width: 294px;
+    margin-top: 18px;
+}
+
+/* volunteer */
+
+#volunteer h2 {
+    padding-top: 18px;
+    margin-bottom: 0px;
+}
+
+#volunteer {
+    background: rgba(12, 123, 231, 0.63);
+    width: 480px;
+    height: 198px;
+}
+
+#volunteer p {
+    width: 356px;
+}
+
+#volunteer img {
+    width: 43px;
+    height: 43px;
+}
+
+/* social media */
+#sns-links img{
+    width: 80px;
+    height: 80px;
+}
+#sns-links a{
+    margin: 18px 70px;
 }
