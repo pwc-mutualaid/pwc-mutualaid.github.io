@@ -2,6 +2,13 @@ body{
     margin: 0 0 0 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+main {
+    margin-top: 59.333px;
+}
+main a{
+    color: black;
+    text-decoration: none;
+}
 .centered{
     text-align: center;
     margin: auto;
@@ -28,6 +35,9 @@ p{
 nav {
     width: 100%;
     background-color: #2C2C2C;
+    position:fixed;
+    top:0;
+    z-index: 1;
 }
 nav ul{
     margin: 0 0 0 0;
@@ -70,6 +80,8 @@ nav ul li:last-child{
     opacity: 0.85;
     text-align: center;
     color: #FFFFFF;
+    margin-top: 59.333px;
+    margin-bottom: 40px;
 }
 
 #banner h1{
@@ -123,6 +135,10 @@ nav ul li:last-child{
     margin-top: 18px;
 }
 
+#support a:hover{
+    background: rgba(54, 197, 2, 0.55);
+}
+
 #request-support {
     width: 452px;
     margin-right: 25px;
@@ -158,16 +174,22 @@ nav ul li:last-child{
 }
 
 /* volunteer */
-
-#volunteer h2 {
-    padding-top: 18px;
-    margin-bottom: 0px;
-}
-
 #volunteer {
-    background: rgba(12, 123, 231, 0.63);
+    background: rgba(55, 155, 255, 0.63);
     width: 480px;
     height: 198px;
+}
+
+#help a:hover {
+    background: rgba(0, 119, 238, 0.63);
+}
+
+#volunteer-body {
+    width: 356px;
+}
+#volunteer h2 {
+    margin-top: 18px;
+    margin-bottom: 0px;
 }
 
 #volunteer p {
