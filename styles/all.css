@@ -58,6 +58,14 @@ nav a{
     margin: 0px;
     border: 5px;
 }
+
+nav a:hover{
+    color: #FEDA74;
+}
+
+nav a:active{
+    color: #ffbb00;
+}
 nav ul li:first-child{
     margin-right: auto;
     text-align: left;
