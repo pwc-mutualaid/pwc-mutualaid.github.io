@@ -66,6 +66,10 @@ nav a:hover{
 nav a:active{
     color: #ffbb00;
 }
+
+.active {
+    text-decoration: underline;  
+}
 nav ul li:first-child{
     margin-right: auto;
     text-align: left;
