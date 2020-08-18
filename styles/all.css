@@ -217,3 +217,9 @@ nav ul li:last-child{
 #sns-links a{
     margin: 18px 70px;
 }
+
+/* links */
+.hyperlink { 
+    color: #1E90FF;
+    text-decoration-line: underline;
+}
