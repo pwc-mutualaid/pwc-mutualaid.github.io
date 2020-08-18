@@ -1,225 +1,238 @@
-body{
-    margin: 0 0 0 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body {
+  margin: 0 0 0 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 main {
-    margin-top: 59.333px;
+  margin-top: 59.333px;
 }
-main a{
-    color: black;
-    text-decoration: none;
+main a {
+  color: black;
+  text-decoration: none;
 }
-.centered{
-    text-align: center;
-    margin: auto;
-    justify-content: center;
+.centered {
+  text-align: center;
+  margin: auto;
+  justify-content: center;
 }
-.left{
-    margin-left: 100px;
+.left {
+  margin-left: 100px;
 }
-.hori-parent{
-    display: flex;
-    flex-direction: row;
+.hori-parent {
+  display: flex;
+  flex-direction: row;
 }
-h2{
-    margin-bottom: 15px;
-    font-size: 30px;
+h2 {
+  margin-bottom: 15px;
+  font-size: 30px;
 }
 
-p{
-    font-size: 18px;
-    line-height: 30px;
+p {
+  font-size: 18px;
+  line-height: 30px;
 }
 
 /* navbar */
 nav {
-    width: 100%;
-    background-color: #2C2C2C;
-    position:fixed;
-    top:0;
-    z-index: 1;
+  width: 100%;
+  background-color: #2c2c2c;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
-nav ul{
-    margin: 0 0 0 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 15px 5px 13px 5px;
+nav ul {
+  margin: 0 0 0 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 15px 5px 13px 5px;
 }
-nav ul li{
-    padding: 5px;
-}
-
-nav a{
-    color: white;
-    text-decoration: none;
-    padding: 0px 10px 0px 10px;
-    margin: 0px;
-    border: 5px;
+nav ul li {
+  padding: 5px;
 }
 
-nav a:hover{
-    color: #FEDA74;
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0px 10px 0px 10px;
+  margin: 0px;
+  border: 5px;
 }
 
-nav a:active{
-    color: #ffbb00;
-}
-nav ul li:first-child{
-    margin-right: auto;
-    text-align: left;
-    padding-left: 10px;
+nav a:hover {
+  color: #feda74;
 }
 
-nav ul li:last-child{
-    background: #005EB8;
-    border-radius: 9px;
-    border: 5px solid #005EB8;
-    padding: 0px;
-    margin-right: 7px;
+nav a:active {
+  color: #ffbb00;
+}
+nav ul li:first-child {
+  margin-right: auto;
+  text-align: left;
+  padding-left: 10px;
+}
+
+nav ul li:last-child {
+  background: #005eb8;
+  border-radius: 9px;
+  border: 5px solid #005eb8;
+  padding: 0px;
+  margin-right: 7px;
 }
 
 /* banner */
 #banner {
-    height: 253px;
-    background: #0465C2;
-    mix-blend-mode: normal;
-    opacity: 0.85;
-    text-align: center;
-    color: #FFFFFF;
-    margin-top: 59.333px;
-    margin-bottom: 40px;
+  height: 253px;
+  background: #ffbb77;
+  mix-blend-mode: normal;
+  opacity: 0.85;
+  text-align: center;
+  color: black;
+  margin-top: -4px;
+  margin-bottom: 40px;
 }
 
-#banner h1{
-    margin: 0px;
-    font-size: 50px;
-    padding-top: 70px;
+#banner h1 {
+  margin: 0px;
+  font-size: 50px;
+  padding-top: 70px;
 }
-#banner p{
-    font-style: italic;
-    font-weight: 500;
-    font-size: 30px;
+#banner p {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 30px;
 }
 
 /* Who Are We? */
 
-#aboutUs p, #social-media p {
-    width: 714px;
-    text-align: justify;
+#aboutUs p,
+#social-media p {
+  width: 714px;
+  text-align: justify;
 }
 
 #aboutUs img {
-    width: 100px;
-    height: 100px;
-    margin-left: 90px;
+  width: 100px;
+  height: 100px;
+  margin-left: 90px;
 }
 
 /* Our Mission */
 #mission {
-    width: 870px;
-    margin-bottom: 50px;
-    margin-top: 35px;
+  width: 870px;
+  margin-bottom: 50px;
+  margin-top: 35px;
 }
 #mission p {
-    text-align: justify;
-    margin-bottom: 0px;
+  text-align: justify;
+  margin-bottom: 0px;
 }
 
 #mission img {
-    width: 83px;
-    height: 83px;
-    margin: 7px 35px 0px 0px;
-    float: left;
+  width: 83px;
+  height: 83px;
+  margin: 7px 35px 0px 0px;
+  float: left;
 }
 
 /* support */
 
-#request-support, #browse-resources, #volunteer {
-    background: rgba(85, 223, 36, 0.55);
-    border-radius: 18px;
-    height: 154px;
-    margin-top: 18px;
+#request-support,
+#browse-resources,
+#volunteer {
+  background: rgba(85, 223, 36, 0.55);
+  border-radius: 18px;
+  height: 154px;
+  margin-top: 18px;
 }
 
-#support a:hover{
-    background: rgba(54, 197, 2, 0.55);
+#browse-resources > div {
+  margin-top: 33px;
+}
+
+#support a:hover {
+  background: rgba(54, 197, 2, 0.55);
 }
 
 #request-support {
-    width: 452px;
-    margin-right: 25px;
+  width: 452px;
+  margin-right: 25px;
 }
 
 #request-support-body {
-    width: 400px;
+  width: 400px;
 }
 #request-support div {
-    margin-top: 13px;
+  margin-top: 13px;
 }
 #request-support h2 {
-    margin-top: 5px;
-    margin-right: 20px;
+  margin-top: 5px;
+  margin-right: 20px;
 }
 
 #request-support img {
-    width: 45px;
-    height: 45px;
+  width: 45px;
+  height: 45px;
 }
 #request-support p {
-    margin-top: 4px;
+  margin-top: 4px;
 }
 
-#browse-resources{
-    width: 413px;
-    margin-left: 25px;
+#browse-resources {
+  width: 413px;
+  margin-left: 25px;
 }
 
-#browse-resources h2{
-    width: 294px;
-    margin-top: 18px;
+#browse-resources h2 {
+  width: 294px;
+  margin-top: 18px;
 }
 
 /* volunteer */
 #volunteer {
-    background: rgba(55, 155, 255, 0.63);
-    width: 480px;
-    height: 198px;
+  background: rgba(55, 155, 255, 0.63);
+  width: 480px;
+  height: 198px;
 }
 
 #help a:hover {
-    background: rgba(0, 119, 238, 0.63);
+  background: rgba(0, 119, 238, 0.63);
 }
 
 #volunteer-body {
-    width: 356px;
+  width: 356px;
 }
 #volunteer h2 {
-    margin-top: 18px;
-    margin-bottom: 0px;
+  margin-top: 18px;
+  margin-bottom: 0px;
 }
 
 #volunteer p {
-    width: 356px;
+  width: 356px;
 }
 
 #volunteer img {
-    width: 43px;
-    height: 43px;
+  width: 43px;
+  height: 43px;
 }
 
 /* social media */
-#sns-links img{
-    width: 80px;
-    height: 80px;
+#sns-links img {
+  width: 80px;
+  height: 80px;
 }
-#sns-links a{
-    margin: 18px 70px;
+#sns-links a {
+  margin: 18px 70px;
+}
+
+/* community resources */
+#community-resources {
+  margin-top: 75px;
 }
 
 /* links */
-.hyperlink { 
-    color: #1E90FF;
-    text-decoration-line: underline;
+.hyperlink {
+  color: #1e90ff;
+  text-decoration-line: underline;
 }
