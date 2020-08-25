@@ -184,7 +184,7 @@ nav ul li:last-child {
   margin-left: 25px;
 }
 
-#browse-resources h2 {
+#browse-resources > h2 {
   width: 294px;
   margin-top: 40px;
 }
@@ -235,4 +235,8 @@ nav ul li:last-child {
 .hyperlink {
   color: #1e90ff;
   text-decoration-line: underline;
+}
+
+.underline {
+  text-decoration: underline;
 }
