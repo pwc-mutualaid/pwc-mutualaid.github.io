@@ -141,7 +141,8 @@ nav ul li:last-child {
 
 #request-support,
 #browse-resources,
-#volunteer {
+#volunteer,
+#member {
   background: rgba(85, 223, 36, 0.55);
   border-radius: 18px;
   height: 154px;
@@ -191,7 +192,8 @@ nav ul li:last-child {
 }
 
 /* volunteer */
-#volunteer {
+#volunteer,
+#member {
   background: rgba(55, 155, 255, 0.63);
   width: 480px;
   height: 198px;
@@ -201,7 +203,8 @@ nav ul li:last-child {
   background: rgba(0, 119, 238, 0.63);
 }
 
-#volunteer-body {
+#volunteer-body,
+#member-body {
   width: 356px;
 }
 #volunteer h2 {
@@ -209,6 +212,7 @@ nav ul li:last-child {
   margin-bottom: 0px;
 }
 
+#volunteer p,
 #volunteer p {
   width: 356px;
 }
